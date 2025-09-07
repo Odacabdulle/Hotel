@@ -234,6 +234,10 @@ ul {
     background-color: white;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
 }
+.box-2 img{
+    width: 300px;
+    object-fit: cover;
+}
 
 .box-1 img {
     width: 350px;
@@ -256,7 +260,8 @@ ul {
 .nh {
     margin-top: 20px;
 }
-.footer{
+
+.footer {
     background-color: rgb(21, 21, 21);
     color: white;
     display: flex;
@@ -265,12 +270,15 @@ ul {
     display: flex;
     list-style: none;
 }
-.logo-1 p{
+
+.logo-1 p {
     width: 500px;
 }
-.copy{
+
+.copy {
     text-align: center;
 }
+
 @media(max-width:480px) {
     .header {
         display: flex;
@@ -287,13 +295,17 @@ ul {
         font-size: 30px;
     }
 
+    .hero {
+        align-items: center;
+    }
+
     .in {
         position: absolute;
         top: 20%;
-        left: 5%;
+        left: 2%;
         background: rgba(0, 0, 0, 0.7);
         border-left: 3px solid red;
-        height: 360px;
+        height: 330px;
         color: white;
         width: 350px;
         padding: 10px;
@@ -340,6 +352,29 @@ ul {
         border: none;
         font-size: 20px;
         margin-top: 20px;
+    }
+
+    .box {
+        width: 300px;
+        height: 380px;
+        background-color: white;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    }
+    .box img{
+        width: 300px;
+
+    }
+
+    .box-1 {
+        width: 300px;
+        height: 410px;
+        background-color: white;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    }
+
+    .box-1 img {
+        width: 300px;
+        height: 200px;
     }
 
     .btn:hover {
@@ -389,21 +424,24 @@ ul {
         overflow-x: hidden;
         align-items: center;
     }
-    .map iframe{
+
+    .map iframe {
         width: 300px;
         height: 300px;
     }
-    .footer h1{
+
+    .footer h1 {
         font-size: 20px;
     }
-    .footer{
+
+    .footer {
         padding: 10px;
         display: flex;
-        width: 100%;
         flex-direction: column;
         height: 500px;
     }
-    .logo-1 p{
+
+    .logo-1 p {
         margin-top: 10px;
         width: 300px;
     }
