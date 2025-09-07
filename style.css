@@ -156,9 +156,14 @@ ul {
 
 .box {
     width: 350px;
-    height: 370px;
+    height: 350px;
     background-color: white;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+.box-2 img{
+     width: 350px;
+     height: 200px;
+     object-fit: cover;
 }
 
 .box img {
@@ -234,7 +239,8 @@ ul {
     background-color: white;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
 }
-.box-2 img{
+
+.box-2 img {
     width: 300px;
     object-fit: cover;
 }
@@ -353,27 +359,32 @@ ul {
         font-size: 20px;
         margin-top: 20px;
     }
-
+.box-2 img{
+     width: 350px;
+     height: 200px;
+     object-fit: cover;
+}
     .box {
-        width: 300px;
-        height: 380px;
+       width: 350px;
+        height: 340px;
         background-color: white;
         box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
     }
-    .box img{
-        width: 300px;
+
+    .box img {
+        width: 350px;
 
     }
 
     .box-1 {
-        width: 300px;
+        width: 350px;
         height: 410px;
         background-color: white;
         box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
     }
 
     .box-1 img {
-        width: 300px;
+        width: 350px;
         height: 200px;
     }
 
@@ -390,7 +401,7 @@ ul {
 
     .about img {
         margin-top: 40px;
-        width: 390px;
+        width: 350px;
     }
 
     .about-des {
@@ -426,7 +437,7 @@ ul {
     }
 
     .map iframe {
-        width: 300px;
+        width: 350px;
         height: 300px;
     }
 
