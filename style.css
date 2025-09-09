@@ -84,6 +84,7 @@ ul {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    overflow: hidden;
 }
 
 .about-des {
@@ -96,7 +97,14 @@ ul {
 }
 
 .about img {
+    transition: transform 0.35s ease;
+    will-change: transfrom;
+    object-fit: cover;
     width: 700px;
+}
+
+.about:hover img {
+    transform: scale(1.02);
 }
 
 .about-des h1 {
@@ -141,10 +149,6 @@ ul {
     background-color: red;
 }
 
-.imgs:hover {
-    transition: all 0.3s ease;
-    transform: scale(1.0);
-}
 
 .Row {
     display: flex;
@@ -159,16 +163,18 @@ ul {
     height: 350px;
     background-color: white;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
-}
-.box-2 img{
-     width: 350px;
-     height: 200px;
-     object-fit: cover;
+    overflow: hidden;
 }
 
 .box img {
     width: 350px;
     object-fit: cover;
+    transition: transform 0.35s ease;
+    will-change: transfrom;
+}
+
+.box:hover img {
+    transform: scale(1.1);
 }
 
 .about-des1 {
@@ -230,7 +236,7 @@ ul {
 }
 
 .box:hover img {
-    transform: scale(1)
+    transform: scale(1.05)
 }
 
 .box-1 {
@@ -238,15 +244,30 @@ ul {
     height: 410px;
     background-color: white;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
 }
 
 .box-2 img {
+    transition: transform 0.35s ease;
+    will-change: transfrom;
     width: 300px;
+    height: 200px;
     object-fit: cover;
 }
 
+.box-2:hover img {
+    transform: scale(1.03);
+}
+
 .box-1 img {
+    transition: transform 0.35s ease;
+    will-change: transfrom;
+    object-fit: cover;
     width: 350px;
+}
+
+.box-1:hover img {
+    transform: scale(1.03);
 }
 
 .from textarea {
@@ -359,13 +380,15 @@ ul {
         font-size: 20px;
         margin-top: 20px;
     }
-.box-2 img{
-     width: 350px;
-     height: 200px;
-     object-fit: cover;
-}
+
+    .box-2 img {
+        width: 350px;
+        height: 200px;
+        object-fit: cover;
+    }
+
     .box {
-       width: 350px;
+        width: 350px;
         height: 340px;
         background-color: white;
         box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
